@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeff Cabrera | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-2xl font-bold text-indigo-600">Jeff Cabrera</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#portfolio" class="hover:text-indigo-600">Portfolio</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-indigo-500 to-blue-500 text-white">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I’m Jeff Cabrera</h2>
+    <p class="text-lg mb-6">Sales & Customer Service Expert | Helping businesses build trust and loyalty</p>
+    <a href="#contact" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Get in Touch</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 text-center text-indigo-600">About Me</h3>
+    <p class="text-lg leading-relaxed text-center">
+      I’m a Sales and Customer Service professional with nearly 7 years of experience helping businesses grow and deliver excellent service. 
+      I’m passionate about building strong customer relationships and ensuring every client feels valued.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center text-indigo-600">What I Do</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center hover:shadow-lg transition">
+          <h4 class="font-semibold text-xl mb-2">Sales Strategy</h4>
+          <p>Developing smart sales plans that help boost revenue and client satisfaction.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center hover:shadow-lg transition">
+          <h4 class="font-semibold text-xl mb-2">Customer Support</h4>
+          <p>Delivering top-notch service that builds trust and loyalty among customers.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center hover:shadow-lg transition">
+          <h4 class="font-semibold text-xl mb-2">Team Management</h4>
+          <p>Coaching and leading teams to achieve excellence and exceed goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-10 text-center text-indigo-600">My Work</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+        <img src="https://via.placeholder.com/400x250" alt="Project 1" class="w-full">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Project Title 1</h4>
+          <p class="text-gray-600">Brief description of your project or achievement.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+        <img src="https://via.placeholder.com/400x250" alt="Project 2" class="w-full">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Project Title 2</h4>
+          <p class="text-gray-600">Brief description of your project or achievement.</p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+        <img src="https://via.placeholder.com/400x250" alt="Project 3" class="w-full">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Project Title 3</h4>
+          <p class="text-gray-600">Brief description of your project or achievement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-indigo-600 text-white py-16">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+      <p class="mb-6">Interested in working together or want to know more? Let’s talk!</p>
+      <a href="mailto:jeff@example.com" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>© 2025 Jeff Cabrera. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
